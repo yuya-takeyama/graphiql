@@ -4,7 +4,7 @@
 
 See `./examples/server.go` for more details.
 
-```
+```go
 func main() {
 	http.Handle("/", &graphiql.Handler{
 		Endpoint: "/graphql", // Configure GraphQL endpoint
